@@ -55,6 +55,8 @@ public class ErrorValidationsTest extends BaseTest {
 		CartPage cartPage = productCatalouge.goToCartPage();
 
 		System.out.println("aaaa");
+		System.out.println("aaaa22");
+		System.out.println("aaaa333");
 
 		Boolean match = cartPage.VerifyProductDisplay(productName);
 		System.out.println(match);
