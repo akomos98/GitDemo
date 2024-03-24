@@ -57,7 +57,12 @@ public class ErrorValidationsTest extends BaseTest {
 		System.out.println("aaaa");
 		System.out.println("aaaa22");
 		System.out.println("aaaa333");
-
+		//deneme
+		//deneme1
+		//deneme2
+		System.out.println("aaaa4444");
+		System.out.println("aaaa55555");
+		System.out.println("aaaa666666");
 		Boolean match = cartPage.VerifyProductDisplay(productName);
 		System.out.println(match);
 		Assert.assertTrue(match);
