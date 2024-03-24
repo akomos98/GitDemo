@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 17.042 s <<< FAILURE! - in TestSuite
+runScenario(cucumber.TestNGTestRunner)  Time elapsed: 0.097 s  <<< FAILURE!
+java.util.regex.PatternSyntaxException: 
+Unclosed group near index 31
+^"([^"]*" message is displayed$
+
+submitOrder(ilkbeySirketi.SubmitOrderTest)  Time elapsed: 4.403 s  <<< FAILURE!
+java.lang.RuntimeException: 
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'browser': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 8]
+	at ilkbeySirketi.SubmitOrderTest.getData(SubmitOrderTest.java:102)
+
