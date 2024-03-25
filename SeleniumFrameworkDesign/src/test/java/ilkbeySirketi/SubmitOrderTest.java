@@ -50,6 +50,8 @@ public class SubmitOrderTest extends BaseTest {
 		System.out.println("aaaa");
 		System.out.println("aaaa git deneme 2 yeni branch");
 		
+		System.out.println("aaaa git develop branch deneme2");
+
 		
 		Boolean match = cartPage.VerifyProductDisplay(input.get("productNames"));
 		System.out.println(match);
