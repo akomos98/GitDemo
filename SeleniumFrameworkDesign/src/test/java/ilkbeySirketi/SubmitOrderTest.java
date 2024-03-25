@@ -48,7 +48,9 @@ public class SubmitOrderTest extends BaseTest {
 		CartPage cartPage = productCatalouge.goToCartPage();
 
 		System.out.println("aaaa");
-
+		System.out.println("aaaa git deneme 2 yeni branch");
+		
+		
 		Boolean match = cartPage.VerifyProductDisplay(input.get("productNames"));
 		System.out.println(match);
 		Assert.assertTrue(match);
